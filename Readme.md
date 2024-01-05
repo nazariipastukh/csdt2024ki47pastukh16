@@ -2,4 +2,4 @@ Student number: 16
 Game: Checkers
 Config type: XML
 
-TASK 1
+TASK 3
