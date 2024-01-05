@@ -4,19 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a19322-725f-4c98-9f2b-18887675a729" name="Changes" comment="task1 commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="16a19322-725f-4c98-9f2b-18887675a729" name="Changes" comment="task2 commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ce903b.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/AIPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/NaiveImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/SamuelStaticImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/features/ADV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/features/DIFF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/features/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/features/KCENT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ai/features/MOB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/BTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/CheckerBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/MoveNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/MoveTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/MustLandKings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/RuleSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/corelogic/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/runtime/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/runtime/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ui/AboutScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ui/GameMouseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ui/GameUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ui/OptionsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ui/StatsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/ui/UIFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/checkers.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="task-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,9 +73,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "task-1",
-    "last_opened_file_path": "C:/Users/Nazariy/IdeaProjects/checkers/lib/jSerialComm-2.10.4.jar",
+    "git-widget-placeholder": "task-3",
+    "last_opened_file_path": "C:/Users/Nazariy/IdeaProjects/Checkers-game1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,8 +90,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nazariy\IdeaProjects\checkers\lib" />
       <recent name="C:\Users\Nazariy\IdeaProjects\checkers" />
+      <recent name="C:\Users\Nazariy\IdeaProjects\checkers\lib" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ArduinoCommunication">
@@ -96,6 +128,8 @@
       <updated>1704210942637</updated>
       <workItem from="1704210943639" duration="1028000" />
       <workItem from="1704404268181" duration="5820000" />
+      <workItem from="1704411171277" duration="270000" />
+      <workItem from="1704461922915" duration="4849000" />
     </task>
     <task id="LOCAL-00001" summary="task1 commit">
       <option name="closed" value="true" />
@@ -113,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704211379657</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="task2 commit">
+      <option name="closed" value="true" />
+      <created>1704411274649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704411274649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task2 commit">
+      <option name="closed" value="true" />
+      <created>1704411313419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704411313419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +182,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1 commit" />
+    <MESSAGE value="task2 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2 commit" />
   </component>
 </project>
